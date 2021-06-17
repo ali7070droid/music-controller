@@ -1,4 +1,4 @@
-from music_controller.api.serializers import UpdateRoomSerializer
+from .serializers import UpdateRoomSerializer
 from .models import Room
 from django.urls import path
 from .views import CreateRoomView, RoomView, GetRoom, JoinRoom, UserInRoom,LeaveRoom, UpadteRoom

@@ -69,7 +69,7 @@ export default class HomePage extends Component {
                             );
                         }}
                     />
-                    <Route path="/join" component={RoomJoinPage}/>
+                    <Route path="/join" component={RoomJoinPage} />
                     <Route path="/create" component={CreateRoomPage} />
                     <Route
                         path="/room/:roomCode"
